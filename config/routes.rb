@@ -3,6 +3,7 @@ SampleApp::Application.routes.draw do
 
   get "static_pages/help"
 
+  get "static_pages/about"
   #match '/static_pages/home', :to=>'static_pages#home'
 
   # The priority is based upon order of creation:
